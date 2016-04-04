@@ -1,27 +1,29 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+<header class="tc">
+  <img class="br-100 w5" src="images/kaitlynn-frank-profile.jpg" alt="Kaitlynn Frank head shot" />
+  <h1 class="">Kaitlynn Frank</h1>
+  <h2 class="">A copywriter by day, Batman by night.</h2>
+  <ul class="list pln">
+    <li>Portfolio</li>
+    <li>About</li>
+    <li>R&#233;sum&#233;</li>
+  </ul>
+  <div class="pv4 ph3 ph5-ns">
+    <a class="link dim gray dib h2 w2 br-100 mr3 " href="#" title="Go to Kaitlynn's facebook profile">
+      <svg data-icon="facebook" style="fill:currentcolor" width="32" height="32" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+        <title>facebook icon</title>
+        <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg>
+    </a>
+    <a class="link dim gray dib h2 w2 br-100 mr3 " href="#" title="Send Kaitlynn an email">
+      <svg data-icon="email" style="fill:currentcolor" width="32" height="32" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+        <title>email icon</title>
+        <path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/>
         </svg>
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
+    </a>
+    <a class="link dim gray dib h2 w2 br-100 mr3 " href="#" title="Go to Kaitlynn's Linkedin profile">
+      <svg data-icon="linkedin" style="fill:currentcolor" width="32" height="32" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+        <title>linkedin icon</title>
+        <path d="M365 1414h231v-694h-231v694zm246-908q-1-52-36-86t-93-34-94.5 34-36.5 86q0 51 35.5 85.5t92.5 34.5h1q59 0 95-34.5t36-85.5zm585 908h231v-398q0-154-73-233t-193-79q-136 0-209 117h2v-101h-231q3 66 0 694h231v-388q0-38 7-56 15-35 45-59.5t74-24.5q116 0 116 157v371zm468-998v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z"/>
+        </svg>
+    </a>
   </div>
-
 </header>
