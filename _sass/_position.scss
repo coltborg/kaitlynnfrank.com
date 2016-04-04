@@ -14,6 +14,7 @@
 .pos-stat { position: static; }
 .pos-rel  { position: relative; }
 .pos-abs  { position: absolute; }
+.pos-fix  { position: fixed; }
 
 @media #{$breakpoint-not-small} {
   .pos-stat-ns { position: static; }
