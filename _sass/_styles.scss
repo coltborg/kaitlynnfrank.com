@@ -13,4 +13,6 @@
 
 */
 .zi1 { z-index: 1; }
-.trans { transition: all .5s ease; }
+.trans { transition: all 0.5s ease; }
+.trans-right { transition: right 0.5s ease; }
+.trans-nav-toggle { transition: opacity 0.15s ease-in, color 0.15s ease-in, right 0.5s ease !important; }

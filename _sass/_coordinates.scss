@@ -33,8 +33,8 @@
 .right-4  { right: 4rem; }
 .bottom-4 { bottom: 4rem; }
 
-.right-20r  {  right: 20rem; }
-.right--20r { right: -20rem; }
+.right-20  {  right: 20rem; }
+.right--20 { right: -20rem; }
 
 @media #{$breakpoint-not-small} {
   .top-0-ns    { top:   0; }
@@ -91,6 +91,4 @@
   .left-4-l   { left:  4rem; }
   .right-4-l  { right: 4rem; }
   .bottom-4-l { bottom: 4rem; }
-
-  //.right-20r-l  {  right: 20rem; }
 }
