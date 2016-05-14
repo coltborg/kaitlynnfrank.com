@@ -30,6 +30,19 @@
   opacity: .8; transition: opacity .15s ease-out;
 }
 
+.dim-nav {
+  opacity: 1;
+  transition: opacity 0.15s ease-in;
+}
+.dim-nav:hover,
+.dim-nav:focus {
+  opacity: 0.8;
+  transition: opacity 0.15s ease-in;
+}
+.dim-nav:active {
+  opacity: 0.8; transition: opacity 0.15s ease-out;
+}
+
 /*
 
   Hide child on hover:
@@ -60,4 +73,3 @@
   opacity: 1;
   transition: opacity .15s ease-in;
 }
-
