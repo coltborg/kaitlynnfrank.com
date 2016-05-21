@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+
 <h1 class="sans-serif f1 lh-title dn-l">Kaitlynn Frank</h1>
+
 <div class="grid grid--gutters grid--full large-grid--fit">
   <div class="grid-cell">
     <img src="https://images.unsplash.com/photo-1460395966576-cf26ecd6ce4c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=04f227ac490395f9baacaca2777d21c6" alt="Stock Photo #1">
@@ -29,10 +31,10 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
       </li>
     {% endfor %}
   </ul>
