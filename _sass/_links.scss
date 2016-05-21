@@ -11,6 +11,9 @@
 
 */
 
+article a { text-decoration: none; }
+article a:hover { border-bottom: 1px solid; }
+
 .link {
   text-decoration: none;
   transition: color .15s ease-in;
@@ -22,6 +25,7 @@
 }
 .link:hover   {
   transition: color .15s ease-in;
+  border-bottom: none;
 }
 .link:active  {
   transition: color .15s ease-in;

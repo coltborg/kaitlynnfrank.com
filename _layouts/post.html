@@ -1,15 +1,18 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="container mbxxl">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  <header class="">
+    <h1 class="" itemprop="name headline">{{ page.title }}</h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="" itemprop="articleBody">
+    <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
     {{ content }}
+    <a class="link dim black" href="{{ site.baseurl }}/">Back to Portfolio <span class="v-mid">&#8617;</span></a>
   </div>
 
 </article>
+
+{% include about-cta.html %}

@@ -34,6 +34,12 @@
 
 */
 
+.container {
+  max-width: 42em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .pan  {   padding: 0; }
 .paxs {   padding: .25rem; }
 .pas  {   padding: .5rem; }

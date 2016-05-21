@@ -175,6 +175,15 @@
 
 /* Background colors */
 
+// #0fb8ad, #1fc8db, #2cb5e8
+.bg-gradient {
+  background: $dark-gray;
+  background: -webkit-linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
+  background: -o-linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
+  background: -moz-linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
+  background: linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
+}
+
 .bg-black {         background-color: $near-black; }
 .bg-dark-gray {     background-color: $dark-gray; }
 .bg-mid-gray {      background-color: $mid-gray; }
@@ -434,6 +443,3 @@
 .bg-hover-lightest-purple:hover { background-color: $lightest-purple; }
 .bg-hover-dark-purple:hover { background-color: $dark-purple; }
 .bg-hover-darkest-purple:hover { background-color: $darkest-purple; }
-
-
-
