@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Third Post"
-date:   2016-05-16 21:23:45 -0500
-categories: jekyll update
+description: This is the meta for the Third post.
+date:   2016-05-16
+categories: projects
 image: /images/example-photo-3.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
