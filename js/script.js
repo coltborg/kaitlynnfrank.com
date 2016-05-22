@@ -17,6 +17,7 @@ function toggleNav(e) {
     headerEl.classList.add('right-0');
 
     bodyEl.classList.toggle('ofy-hid');
+    mainEl.classList.toggle('ofy-hid');
     mainEl.classList.toggle('opacity-50');
 
     return;
@@ -29,6 +30,7 @@ function toggleNav(e) {
     headerEl.classList.add('right--20');
 
     bodyEl.classList.toggle('ofy-hid');
+    mainEl.classList.toggle('ofy-hid');
     mainEl.classList.toggle('opacity-50');
 
     return;
