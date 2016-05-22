@@ -27,12 +27,12 @@
 
 */
 
-.bw0 { border-width: 0; }
-.bw1 { border-width: .125rem; }
-.bw2 { border-width: .25rem; }
-.bw3 { border-width: .5rem; }
-.bw4 { border-width: 1rem; }
-.bw5 { border-width: 2rem; }
+.bw0 { border-width: 0 !important; }
+.bw1 { border-width: .125rem !important; }
+.bw2 { border-width: .25rem !important; }
+.bw3 { border-width: .5rem !important; }
+.bw4 { border-width: 1rem !important; }
+.bw5 { border-width: 2rem !important; }
 
 @media #{$breakpoint-not-small} {
   .bw0-ns { border-width: 0; }
