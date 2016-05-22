@@ -12,6 +12,8 @@ function toggleNav(e) {
   if ( headerEl.classList.contains('right--20') ) {
     headerToggleEl.classList.remove('right-0');
     headerToggleEl.classList.add('right-20');
+    headerToggleEl.classList.remove('bg-primary-scheme');
+    headerToggleEl.classList.add('bg-alternate-scheme');
 
     headerEl.classList.remove('right--20');
     headerEl.classList.add('right-0');
@@ -25,6 +27,8 @@ function toggleNav(e) {
   if ( headerEl.classList.contains('right-0') ) {
     headerToggleEl.classList.remove('right-20');
     headerToggleEl.classList.add('right-0');
+    headerToggleEl.classList.remove('bg-alternate-scheme');
+    headerToggleEl.classList.add('bg-primary-scheme');
 
     headerEl.classList.remove('right-0');
     headerEl.classList.add('right--20');
