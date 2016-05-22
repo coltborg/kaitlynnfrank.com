@@ -14,9 +14,6 @@
 .primary-scheme { color: $primary-scheme; }
 .alternate-scheme { color: $alternate-scheme; }
 
-.bg-primary-scheme { background-color: $primary-scheme; }
-.bg-alternate-scheme { background-color: $alternate-scheme; }
-
 /* Text colors */
 
 .black-100 {        color: $black-100; }
@@ -194,6 +191,9 @@
   background: -o-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
   -webkit-background-clip: text;
 }
+
+.bg-primary-scheme { background-color: $primary-scheme; }
+.bg-alternate-scheme { background-color: $alternate-scheme; }
 
 .bg-black {         background-color: $near-black; }
 .bg-dark-gray {     background-color: $dark-gray; }
