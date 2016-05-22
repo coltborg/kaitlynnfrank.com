@@ -16,8 +16,8 @@ function toggleNav(e) {
     headerEl.classList.remove('right--20');
     headerEl.classList.add('right-0');
 
-    bodyEl.classList.toggle('ofy-hid');
-    mainEl.classList.toggle('ofy-hid');
+    bodyEl.classList.toggle('no-scroll');
+    mainEl.classList.toggle('no-scroll');
     mainEl.classList.toggle('opacity-50');
 
     return;
@@ -29,8 +29,8 @@ function toggleNav(e) {
     headerEl.classList.remove('right-0');
     headerEl.classList.add('right--20');
 
-    bodyEl.classList.toggle('ofy-hid');
-    mainEl.classList.toggle('ofy-hid');
+    bodyEl.classList.toggle('no-scroll');
+    mainEl.classList.toggle('no-scroll');
     mainEl.classList.toggle('opacity-50');
 
     return;

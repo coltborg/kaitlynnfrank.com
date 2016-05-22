@@ -20,3 +20,8 @@
 .trans-right { transition: right 0.5s ease; }
 .trans-nav-toggle { transition: opacity 0.15s ease-in, color 0.15s ease-in, right 0.5s ease !important; }
 .trans-opacity { transition: opacity 0.3s ease; }
+
+.no-scroll {
+  overflow-y: hidden;
+  position:fixed;
+}
