@@ -11,8 +11,11 @@
 
 */
 
+.primary-scheme { color: $primary-scheme; }
+.alternate-scheme { color: $alternate-scheme; }
 
-
+.bg-primary-scheme { background-color: $primary-scheme; }
+.bg-alternate-scheme { background-color: $alternate-scheme; }
 
 /* Text colors */
 
@@ -175,13 +178,21 @@
 
 /* Background colors */
 
-// #0fb8ad, #1fc8db, #2cb5e8
 .bg-gradient {
-  background: $dark-gray;
-  background: -webkit-linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
-  background: -o-linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
-  background: -moz-linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
-  background: linear-gradient(141deg, $silver 0%, $mid-gray 51%, $dark-gray 75%);
+  background: $one;
+  background: -webkit-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
+  background: -o-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
+  background: -moz-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
+  background: linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
+}
+
+.header-gradient {
+  display: inline-block;
+  color: $one;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
+  background: -o-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
+  -webkit-background-clip: text;
 }
 
 .bg-black {         background-color: $near-black; }

@@ -68,7 +68,7 @@
 }
 
 @media #{$breakpoint-large} {
-  .dn-l {     display: none; }
+  .dn-l {     display: none !important; }
   .di-l {     display: inline; }
   .db-l {     display: block; }
   .dib-l {    display: inline-block; }
