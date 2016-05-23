@@ -176,7 +176,7 @@
 /* Background colors */
 
 .bg-gradient {
-  background: $one;
+  background: $three;
   background: -webkit-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
   background: -o-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
   background: -moz-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
@@ -185,7 +185,7 @@
 
 .header-gradient {
   display: inline-block;
-  color: $one;
+  color: $three;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
   background: -o-linear-gradient(141deg, $one 0%, $two 51%, $three 75%);
