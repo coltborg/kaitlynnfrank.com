@@ -1,9 +1,17 @@
 ---
 layout: page
 title: About
+description: "Like most millennials, I am made up of 87% coffee and 13% stubbornness. I am not afraid to say that I can be bribed with a good cup o’ joe."
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Like most millennials, I am made up of 87% coffee and 13% stubbornness. I am not afraid to say that I can be bribed with a good cup o’ joe.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I have mastered winged eyeliner because, A) I don’t give up on a good thing and B) I thought that’s what they meant when they said only winners get wings.
+
+I rock out to 90s music. It was a time when I was old enough to appreciate it, but young enough to not know what they were talking about.
+
+I also make some bomb-ass cupcakes. If that’s not enough to hire me, then I don’t know what is.
+
+Please call with job offers or cupcake requests.
+[425-248-0055](tel:425-248-0055)

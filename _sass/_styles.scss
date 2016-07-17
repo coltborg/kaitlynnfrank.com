@@ -27,3 +27,18 @@
 }
 
 .cta:hover { border-bottom: 0.25rem solid; }
+
+.grid-image {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 70%; // here the desired aspect ratio
+
+  & img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
