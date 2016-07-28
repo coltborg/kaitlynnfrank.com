@@ -15,3 +15,8 @@ I also make some bomb-ass cupcakes. If that’s not enough to hire me, then I do
 
 Please call with job offers or cupcake requests.
 [425-248-0055](tel:425-248-0055)
+
+Check out how funny I am:
+<div class="iframe-container">
+  <iframe src="https://www.youtube.com/embed/8LqZMOjVVu4" frameborder="0" allowfullscreen></iframe>
+</div>
