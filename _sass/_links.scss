@@ -35,6 +35,8 @@ article a:hover { border-bottom: 1px solid; }
 }
 .link:focus   {
   transition: color .15s ease-in;
+  background: $white !important;
+  color: $primary-scheme !important;
 }
 
 .underline             { text-decoration: underline; }

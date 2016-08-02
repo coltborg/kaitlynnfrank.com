@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Mrs. Dash"
+description: "Cooking can be frustrating. Luckily, Mrs. Dash makes even the simplest of meals taste like a masterpiece."
+date:   2016-08-01
+categories: projects
+image: /images/mrs.dash-pizzarolls.jpg
+---
+
+Cooking can be frustrating. Luckily, Mrs. Dash makes even the simplest of meals taste like a masterpiece.
+
+![Mr. I'll just get some pizza]({{ site.baseurl }}/images/mrs.dash-pizzarolls.jpg)
+
+![Mr. Can't wait for a pot of water to boil]({{ site.baseurl }}/images/mrs.dash-ramen-water.jpg)
+
+![Mr. Doesn't know how to pronounce sauté]({{ site.baseurl }}/images/mrs.dash-saute.jpg)

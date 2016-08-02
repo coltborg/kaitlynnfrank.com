@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Halo Top"
+description: "This ice cream is so healthy, people won’t believe it’s real."
+date:   2016-07-30
+categories: projects
+image: /images/halotop1.jpg
+---
+
+This ice cream is so healthy, people won’t believe it’s real.
+
+![We would tell you how many calories are in our pints, but you probably wonldn't believe us anyways.]({{ site.baseurl }}/images/halotop1.jpg)
+
+![Have your cake and eat it, too. No seriously, have some cake.]({{ site.baseurl }}/images/halotop2.jpg)
+
+![At six grams of protein per pint, there has to be something wrong with it, right?]({{ site.baseurl }}/images/halotop3.jpg)
