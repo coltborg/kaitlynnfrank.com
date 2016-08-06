@@ -1,0 +1,41 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+/*
+
+   LINKS
+
+*/
+
+article a {
+  text-decoration: none;
+  color: $alternate-scheme;
+}
+article a:hover { border-bottom: 1px solid; }
+
+.link {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color .15s ease-in;
+}
+.link:hover   {
+  transition: color .15s ease-in;
+  border-bottom: none;
+}
+.link:active  {
+  transition: color .15s ease-in;
+}
+.link:focus   {
+  transition: color .15s ease-in;
+}
+
+.underline             { text-decoration: underline; }
+.underline-hover:hover { text-decoration: underline; }

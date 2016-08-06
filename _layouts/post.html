@@ -1,24 +1,17 @@
 ---
 layout: default
 ---
-<section>
-    <div class="container">
-        <header class="major">
-            <h2>{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
+<article class="container mbxxl">
 
-        <section class="post-content">
-            {{ content }}
-        </section>
-        
-        <footer>
-            {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-            {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
-        </footer>
+  <header class="">
+    <h1 class="header-gradient" itemprop="name headline">{{ page.title }}</h1>
+  </header>
 
-    </div>
+  <div class="" itemprop="articleBody">
+    {{ content }}
+    <a class="link dim alternate-scheme" href="{{ site.baseurl }}/">Back to Portfolio</a>
+  </div>
 
-</section>
+</article>
+
+{% include about-cta.html %}
